@@ -96,16 +96,19 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-2" style="background-color: rgb(255, 255, 255); ">
-                            <br><center><a href=""><img src="/images/logo-usap.png" alt="" srcset="" width="152px" height="auto"></a></center><br>
+                            <br><center><a href="/home"><img src="/images/logo-usap.png" alt="" srcset="" width="152px" height="auto"></a></center><br>
                             <ul class="nav nav-pills nav-tabs ">
                                 <li class="nav-item ">
                                     <a class="nav-link active" href="/home"><i class="bi bi-house-door-fill"></i>&nbsp;Home</a>
                                 </li>
                                 <li class="nav-item opts">
-                                    <a class="nav-link" href="#"><i class="bi bi-people-fill"></i>&nbsp;Usuarios</a>
+                                    <a class="nav-link" href="#"><i class="bi bi-people"></i>&nbsp;Usuarios</a>
                                 </li>
                                 <li class="nav-item opts">
-                                    <a class="nav-link" href="#"><i class="bi bi-person-vcard-fill"></i>&nbsp;Artículos</a>
+                                    <a class="nav-link" href="/articles"><i class="bi bi-person-vcard"></i>&nbsp;Artículos</a>
+                                </li>
+                                <li class="nav-item opts">
+                                    <a class="nav-link" href="#"><i class="bi bi-coin"></i>&nbsp;Bolsa de Empleo</a>
                                 </li>
                                 <li class="nav-item opts">
                                     <a class="nav-link" href="/settings"><i class="bi bi-gear-wide-connected"></i>&nbsp;Configuraciones</a>

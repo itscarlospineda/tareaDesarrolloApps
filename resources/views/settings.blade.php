@@ -26,12 +26,17 @@
                 </div>
 
               </div>
+              
               <div class="card-footer">
-                <i class="bi bi-exclamation-circle"></i>&nbsp; Recuerda siempre guardar los cambios. 
-
-                <div> <br>
-                  <button type="button" class="btn btn-danger" disabled>Cancelar</button>
-                  <button type="button" class="btn btn-success">Guardar</button>
+                <div class="container">
+                  <div class=" md-9">
+                    <i class="bi bi-exclamation-circle"></i>&nbsp; Recuerda siempre guardar los cambios. 
+                  </div>
+                  <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                      <button type="button" class="btn btn-danger" disabled>Cancelar</button>
+                      <button type="button" class="btn btn-success">Guardar</button>
+                  </div>
+                        
                 </div>
               </div>
             
