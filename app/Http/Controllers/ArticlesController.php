@@ -88,7 +88,7 @@ class ArticlesController extends Controller
     {
         //$article = Article::find($id);
         Article::destroy($id);
-        return redirect()->route('articles');
+        return redirect()->route('articles')->with($message='Mensaje','El registro ha sido eliminado de forma exitosa.');;
     }
 }
 

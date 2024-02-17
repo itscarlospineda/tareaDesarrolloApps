@@ -12,7 +12,7 @@
 </style>
 
         <div class="col-md-10 py-4 my-5">
-            <div class="container">
+            <!--<div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-8">
                         <div class="card">
@@ -28,7 +28,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>-->
             <section class="pt-0  py-4 my-5">
                 <div class="container">
                     <div class="card border-dark mb-3">
