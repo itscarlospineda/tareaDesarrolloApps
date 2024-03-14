@@ -38,23 +38,27 @@
                                 <div class="card text-white bg-primary mb-3 options">
                                     <div class="card-body">
                                         <h5 class="card-title">Usuarios Activos</h5> <br>
-                                        <h2 class="card-text">3 &nbsp;<i class="bi bi-people-fill"></i> </h2>
+                                        <h2 class="card-text">1 &nbsp;<i class="bi bi-people-fill"></i> </h2>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg">
-                                <div class="card text-white bg-success mb-3 options">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Artículos Activos</h5> <br> 
-                                        <h2 class="card-text">4 &nbsp;<i class="bi bi-person-vcard-fill"></i> </h2>
+                            
+                                <div class="col-lg">
+                                    <div class="card text-white bg-success mb-3 options">
+                                        <div class="card-body" style="text-decorations:none; color:inherit;">
+                                            <a href="/articles" class="button">
+                                            <h5 class="card-title">Artículos Activos</h5> <br> 
+                                            <h2 class="card-text">3 &nbsp;<i class="bi bi-person-vcard-fill"></i> </h2>
+                                        </a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            
                             <div class="col-lg">
                                 <div class="card text-white bg-danger mb-3 options">
                                     <div class="card-body">
                                         <h5 class="card-title">Autores</h5> <br> 
-                                        <h2 class="card-text">7 &nbsp;<i class="bi bi-person-badge-fill"></i> </h2>
+                                        <h2 class="card-text">2 &nbsp;<i class="bi bi-person-badge-fill"></i> </h2>
                                     </div>
                                 </div>
                             </div>
@@ -62,7 +66,7 @@
                                 <div class="card text-white bg-dark mb-3 options">
                                     <div class="card-body">
                                         <h5 class="card-title">Editoriales</h5> <br> 
-                                        <h2 class="card-text">10 &nbsp;<i class="bi bi-building-fill-check"></i> </h2>
+                                        <h2 class="card-text">5 &nbsp;<i class="bi bi-building-fill-check"></i> </h2>
                                     </div>
                                 </div>
                             </div>

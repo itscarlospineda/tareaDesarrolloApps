@@ -1,5 +1,5 @@
 <?php
-
+/*CARLOS ANDRES PINEDA (3210359) - TAREA 6: CREACION DE MIDDLEWARE - ADICION EN LINEA 67*/
 namespace App\Http;
 
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
@@ -64,5 +64,6 @@ class Kernel extends HttpKernel
         'signed' => \App\Http\Middleware\ValidateSignature::class,
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
         'verified' => \Illuminate\Auth\Middleware\EnsureEmailIsVerified::class,
+        'validate.api' => \App\Http\Middleware\Validateapi::class, //ADICION AQUI
     ];
 }

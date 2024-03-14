@@ -26,10 +26,6 @@ class ArticlesController extends Controller
      */
     public function index()
     {
-        /*$articles = DB::table('articles')
-                    ->select('articles.*')
-                    ->orderBy('id','ASC')
-                    ->get();*/
         $articles = Article::all();
         return view('articles')->with('articles',$articles);
     }

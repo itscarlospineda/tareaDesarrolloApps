@@ -34,19 +34,19 @@
                 @endif
                 <div class=" mb-3">
                   <label for="title" class="form-label">Nombre de Artículo</label>
-                  <input type="text" class="form-control" name="title" aria-describedby="emailHelp" value="{{$articles->title}}">
+                  <input type="text" class="form-control" name="title" value="{{$articles->title}}">
                 </div>
                 <div class=" mb-3">
                   <label for="content" class="form-label">Contenido</label>
-                  <input type="text" class="form-control" name="content" aria-describedby="emailHelp" value="{{$articles->content}}">
+                  <input type="text" class="form-control" name="content" value="{{$articles->content}}">
                 </div>
                 <div class=" mb-3">
                   <label for="author" class="form-label">Autor</label>
-                  <input type="text" class="form-control" name="author" aria-describedby="emailHelp" value="{{$articles->author}}">
+                  <input type="text" class="form-control" name="author" value="{{$articles->author}}">
                 </div>
                 <div class=" mb-3">
                   <label for="category" class="form-label">Categoría</label>
-                  <input type="text" class="form-control" name="category" aria-describedby="emailHelp" value="{{$articles->category}}">
+                  <input type="text" class="form-control" name="category" value="{{$articles->category}}">
                 </div>
 
             </div>

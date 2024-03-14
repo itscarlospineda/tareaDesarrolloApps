@@ -3,7 +3,7 @@
 @section('content')
 <style type="text/css">
     body{
-        background-image: url('/images/campus.jpg');
+        background-image: url('/images/entrada.jpg');
         background-size: cover;
         height: 100vh;
         background-repeat: no-repeat;

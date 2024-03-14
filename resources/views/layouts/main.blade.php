@@ -29,6 +29,13 @@
         .opts {
         margin-right: 25px;
         }   
+        .bar{
+            background-color: rgb(247, 247, 247); 
+            height:100vh; 
+            @media screen and (max-width: 600px) {
+                        bar: height
+                      }
+        }
     </style>
     
 </head>
@@ -95,7 +102,7 @@
         <main>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-2" style="background-color: rgb(255, 255, 255); ">
+                    <div class="col-md-2 bar">
                             <br><center><a href="/home"><img src="/images/logo-usap.png" alt="" srcset="" width="152px" height="auto"></a></center><br>
                             <ul class="nav nav-pills nav-tabs ">
                                 <li class="nav-item ">
